@@ -1,0 +1,131 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* typography */
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* body {
+    padding-top: 10rem;
+} */
+h2 {
+    margin-bottom: 1rem;
+}
+h4 {
+    margin-bottom: 15px;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: fixed; */
+}
+header img {
+    height: 50px;
+}
+ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul li a {
+    color: seashell;
+}
+
+/* Main section */
+.hero-section {
+    height: 700px;
+    max-width: 1200px;
+    background: center no-repeat url("/imgs/img-mission-background.webp");
+    text-align: center;
+    display: flex;
+    margin: 4rem auto;
+}
+.mission-container {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.tea-section {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.tea img {
+    height: 200px;
+    width: 300px; 
+    margin-bottom: 10px;
+}
+
+.location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    max-width: 1200px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: center no-repeat url("/imgs/img-locations-background.webp");
+}
+.location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.location-card {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    padding: 2rem 0;
+}
+
+.location-card address {
+    line-height: 2.5;
+}
+
+.contact-section {
+    height: 200px;
+    padding-top: 1rem;
+    line-height: 2;
+}
+.contact-section h2 {
+    margin: 0;
+}
+
+/* Footer*/
+footer {
+    text-align: left;
+    padding: 20px;
+}
