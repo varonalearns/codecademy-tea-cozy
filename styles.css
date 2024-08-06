@@ -55,7 +55,7 @@ ul li a {
 .hero-section {
     height: 700px;
     max-width: 1200px;
-    background: center no-repeat url("/imgs/img-mission-background.webp");
+    background: center no-repeat url("imgs/img-mission-background.webp");
     text-align: center;
     display: flex;
     margin: 4rem auto;
@@ -96,7 +96,7 @@ ul li a {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    background: center no-repeat url("/imgs/img-locations-background.webp");
+    background: center no-repeat url("imgs/img-locations-background.webp");
 }
 .location-container {
     display: flex;
